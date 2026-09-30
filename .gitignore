@@ -1,0 +1,74 @@
+# ==============================
+# Frontend
+# ==============================
+frontend/node_modules/
+frontend/dist/
+
+# ==============================
+# Environment files / secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Certificates / private keys
+# ==============================
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# ==============================
+# Database backups / exports
+# ==============================
+*.sql
+*.dump
+*.bak
+
+# ==============================
+# Logs
+# ==============================
+*.log
+
+# ==============================
+# IDE / OS
+# ==============================
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Node dependencies
+node_modules/
+frontend/node_modules/
+
+# Vite build output
+frontend/dist/
+
+# Environment files / secrets
+.env
+.env.*
+!.env.example
+
+# Certificates / private keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Logs
+*.log
+
+# Database backups
+*.dump
+*.bak
+
+# Unused root Node files
+/package.json
+/package-lock.json
